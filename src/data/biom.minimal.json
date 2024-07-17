@@ -1,0 +1,4531 @@
+{
+    "id": "12345-1234-123455",
+    "format": "Biological Observation Matrix 1.0.0",
+    "format_url": "http://biom-format.org",
+    "matrix_type": "sparse",
+    "generated_by": "Deidentified",
+    "date": "2021-04-17T05:32:34.588870",
+    "type": "OTU table",
+    "matrix_element_type": "float",
+    "shape": [71, 3],
+    "data": [
+        [0, 0, 0.944307],
+        [0, 1, 139028.29],
+        [0, 2, 1362.0],
+        [1, 0, 0.026278],
+        [1, 1, 3868.86],
+        [1, 2, 3188.0],
+        [2, 0, 2.2e-5],
+        [2, 1, 3.29],
+        [2, 2, 2.0],
+        [3, 0, 0.000144],
+        [3, 1, 21.13],
+        [3, 2, 8.0],
+        [4, 0, 0.000225],
+        [4, 1, 33.17],
+        [4, 2, 176.0],
+        [5, 0, 6.5e-5],
+        [5, 1, 9.5],
+        [5, 2, 505.0],
+        [6, 0, 0.000678],
+        [6, 1, 99.77],
+        [6, 2, 1625.0],
+        [7, 0, 0.000225],
+        [7, 1, 33.11],
+        [7, 2, 66.0],
+        [8, 0, 6.1e-5],
+        [8, 1, 9.0],
+        [8, 2, 6.0],
+        [9, 0, 5.8e-5],
+        [9, 1, 8.5],
+        [9, 2, 76.0],
+        [10, 0, 2.6e-5],
+        [10, 1, 3.88],
+        [10, 2, 6.0],
+        [11, 0, 1.5e-5],
+        [11, 1, 2.2],
+        [11, 2, 2.0],
+        [12, 0, 1.3e-5],
+        [12, 1, 1.88],
+        [12, 2, 4.0],
+        [13, 0, 0.008719],
+        [13, 1, 1283.69],
+        [13, 2, 7343.0],
+        [14, 0, 0.00338],
+        [14, 1, 497.63],
+        [14, 2, 2008.0],
+        [15, 0, 6.1e-5],
+        [15, 1, 9.0],
+        [15, 2, 3.0],
+        [16, 0, 6.6e-5],
+        [16, 1, 9.78],
+        [16, 2, 123.0],
+        [17, 0, 4.4e-5],
+        [17, 1, 6.42],
+        [17, 2, 53.0],
+        [18, 0, 4e-5],
+        [18, 1, 5.91],
+        [18, 2, 129.0],
+        [19, 0, 0.000104],
+        [19, 1, 15.31],
+        [19, 2, 51.0],
+        [20, 0, 9.1e-5],
+        [20, 1, 13.33],
+        [20, 2, 87.0],
+        [21, 0, 2.5e-5],
+        [21, 1, 3.7],
+        [21, 2, 17.0],
+        [22, 0, 0.004316],
+        [22, 1, 635.41],
+        [22, 2, 953.0],
+        [23, 0, 2.2e-5],
+        [23, 1, 3.21],
+        [23, 2, 9.0],
+        [24, 0, 8.3e-5],
+        [24, 1, 12.21],
+        [24, 2, 46.0],
+        [25, 0, 5.2e-5],
+        [25, 1, 7.62],
+        [25, 2, 113.0],
+        [26, 0, 0.003565],
+        [26, 1, 524.91],
+        [26, 2, 3352.0],
+        [27, 0, 0.000364],
+        [27, 1, 53.65],
+        [27, 2, 463.0],
+        [28, 0, 0.000135],
+        [28, 1, 19.88],
+        [28, 2, 165.0],
+        [29, 0, 0.001122],
+        [29, 1, 165.12],
+        [29, 2, 234.0],
+        [30, 0, 0.000129],
+        [30, 1, 18.96],
+        [30, 2, 55.0],
+        [31, 0, 2.4e-5],
+        [31, 1, 3.51],
+        [31, 2, 15.0],
+        [32, 0, 9.7e-5],
+        [32, 1, 14.21],
+        [32, 2, 79.0],
+        [33, 0, 0.00045],
+        [33, 1, 66.2],
+        [33, 2, 97.0],
+        [34, 0, 0.000102],
+        [34, 1, 15.06],
+        [34, 2, 262.0],
+        [35, 0, 0.000213],
+        [35, 1, 31.29],
+        [35, 2, 429.0],
+        [36, 0, 3.8e-5],
+        [36, 1, 5.61],
+        [36, 2, 106.0],
+        [37, 0, 1.6e-5],
+        [37, 1, 2.31],
+        [37, 2, 4.0],
+        [38, 0, 0.000145],
+        [38, 1, 21.3],
+        [38, 2, 33.0],
+        [39, 0, 0.000106],
+        [39, 1, 15.64],
+        [39, 2, 43.0],
+        [40, 0, 0.000102],
+        [40, 1, 15.09],
+        [40, 2, 46.0],
+        [41, 0, 8.9e-5],
+        [41, 1, 13.16],
+        [41, 2, 31.0],
+        [42, 0, 3.1e-5],
+        [42, 1, 4.56],
+        [42, 2, 18.0],
+        [43, 0, 6e-5],
+        [43, 1, 8.84],
+        [43, 2, 107.0],
+        [44, 0, 4.7e-5],
+        [44, 1, 6.85],
+        [44, 2, 19.0],
+        [45, 0, 3.1e-5],
+        [45, 1, 4.59],
+        [45, 2, 34.0],
+        [46, 0, 7.6e-5],
+        [46, 1, 11.19],
+        [46, 2, 32.0],
+        [47, 0, 7.1e-5],
+        [47, 1, 10.4],
+        [47, 2, 6.0],
+        [48, 0, 2.6e-5],
+        [48, 1, 3.81],
+        [48, 2, 12.0],
+        [49, 0, 3e-5],
+        [49, 1, 4.47],
+        [49, 2, 10.0],
+        [50, 0, 0.001687],
+        [50, 1, 248.4],
+        [50, 2, 2339.0],
+        [51, 0, 0.000101],
+        [51, 1, 14.81],
+        [51, 2, 21.0],
+        [52, 0, 0.000122],
+        [52, 1, 17.91],
+        [52, 2, 3.0],
+        [53, 0, 6.2e-5],
+        [53, 1, 9.06],
+        [53, 2, 11.0],
+        [54, 0, 0.000169],
+        [54, 1, 24.94],
+        [54, 2, 16.0],
+        [55, 0, 4.4e-5],
+        [55, 1, 6.44],
+        [55, 2, 21.0],
+        [56, 0, 3.8e-5],
+        [56, 1, 5.55],
+        [56, 2, 11.0],
+        [57, 0, 0.000113],
+        [57, 1, 16.66],
+        [57, 2, 18.0],
+        [58, 0, 7.1e-5],
+        [58, 1, 10.52],
+        [58, 2, 10.0],
+        [59, 0, 4.3e-5],
+        [59, 1, 6.32],
+        [59, 2, 42.0],
+        [60, 0, 0.00016],
+        [60, 1, 23.57],
+        [60, 2, 341.0],
+        [61, 0, 0.000126],
+        [61, 1, 18.5],
+        [61, 2, 157.0],
+        [62, 0, 8.3e-5],
+        [62, 1, 12.23],
+        [62, 2, 117.0],
+        [63, 0, 3.8e-5],
+        [63, 1, 5.55],
+        [63, 2, 42.0],
+        [64, 0, 3.4e-5],
+        [64, 1, 4.99],
+        [64, 2, 39.0],
+        [65, 0, 0.000516],
+        [65, 1, 75.92],
+        [65, 2, 882.0],
+        [66, 0, 0.000176],
+        [66, 1, 25.88],
+        [66, 2, 393.0],
+        [67, 0, 3.9e-5],
+        [67, 1, 5.79],
+        [67, 2, 21.0],
+        [68, 0, 3.7e-5],
+        [68, 1, 5.49],
+        [68, 2, 98.0],
+        [69, 0, 7.1e-5],
+        [69, 1, 10.49],
+        [69, 2, 88.0],
+        [70, 0, 8.5e-5],
+        [70, 1, 12.47],
+        [70, 2, 78.0]
+    ],
+    "rows": [
+        {
+            "id": "Lactobacillus crispatus SJ 3C US",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus crispatus",
+                    "Lactobacillus crispatus SJ-3C-US"
+                ],
+                "tax_id": 575598,
+                "title": "Lactobacillus crispatus SJ-3C-US",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus crispatus",
+                        "tax_id": 47770
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus crispatus SJ-3C-US",
+                        "tax_id": 575598
+                    }
+                ],
+                "id": "Lactobacillus crispatus SJ 3C US"
+            }
+        },
+        {
+            "id": "Lactobacillus sp UMNPBX1 GCA 002554085.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus_u_s",
+                    "Lactobacillus sp. UMNPBX1"
+                ],
+                "tax_id": 2042046,
+                "title": "Lactobacillus sp. UMNPBX1",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus_u_s",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus sp. UMNPBX1",
+                        "tax_id": 2042046
+                    }
+                ],
+                "id": "Lactobacillus sp UMNPBX1 GCA 002554085.1",
+                "assembly": "GCA_002554085.1"
+            }
+        },
+        {
+            "id": "Lactobacillus kefiranofaciens ZW3",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus kefiranofaciens",
+                    "Lactobacillus kefiranofaciens ZW3"
+                ],
+                "tax_id": 1033837,
+                "title": "Lactobacillus kefiranofaciens ZW3",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus kefiranofaciens",
+                        "tax_id": 267818
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus kefiranofaciens ZW3",
+                        "tax_id": 1033837
+                    }
+                ],
+                "id": "Lactobacillus kefiranofaciens ZW3"
+            }
+        },
+        {
+            "id": "Lactobacillus helveticus 5735 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus helveticus",
+                    "Lactobacillus helveticus"
+                ],
+                "tax_id": 1587,
+                "title": "Lactobacillus helveticus",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus helveticus",
+                        "tax_id": 1587
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Lactobacillus helveticus",
+                        "tax_id": 1587
+                    }
+                ],
+                "id": "Lactobacillus helveticus 5735 Branch"
+            }
+        },
+        {
+            "id": "Lactobacillus gallinarum DSM 10532 JCM 2011",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus gallinarum",
+                    "Lactobacillus gallinarum DSM 10532 = JCM 2011"
+                ],
+                "tax_id": 1423748,
+                "title": "Lactobacillus gallinarum DSM 10532 = JCM 2011",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus gallinarum",
+                        "tax_id": 52242
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus gallinarum DSM 10532 = JCM 2011",
+                        "tax_id": 1423748
+                    }
+                ],
+                "id": "Lactobacillus gallinarum DSM 10532 JCM 2011"
+            }
+        },
+        {
+            "id": "Lactobacillus acidophilus 30SC",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus amylovorus",
+                    "Lactobacillus amylovorus"
+                ],
+                "tax_id": 1604,
+                "title": "Lactobacillus amylovorus",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus amylovorus",
+                        "tax_id": 1604
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Lactobacillus amylovorus",
+                        "tax_id": 1604
+                    }
+                ],
+                "id": "Lactobacillus acidophilus 30SC"
+            }
+        },
+        {
+            "id": "Lactobacillus kitasatonis DSM 16761 JCM 1039",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus kitasatonis",
+                    "Lactobacillus kitasatonis DSM 16761 = JCM 1039"
+                ],
+                "tax_id": 1423767,
+                "title": "Lactobacillus kitasatonis DSM 16761 = JCM 1039",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus kitasatonis",
+                        "tax_id": 237446
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus kitasatonis DSM 16761 = JCM 1039",
+                        "tax_id": 1423767
+                    }
+                ],
+                "id": "Lactobacillus kitasatonis DSM 16761 JCM 1039"
+            }
+        },
+        {
+            "id": "Lactobacillus vaginalis DSM 5837 ATCC 49540",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Limosilactobacillus",
+                    "Limosilactobacillus vaginalis",
+                    "Lactobacillus vaginalis DSM 5837 = ATCC 49540"
+                ],
+                "tax_id": 1423814,
+                "title": "Lactobacillus vaginalis DSM 5837 = ATCC 49540",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Limosilactobacillus",
+                        "tax_id": 2742598
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Limosilactobacillus vaginalis",
+                        "tax_id": 1633
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus vaginalis DSM 5837 = ATCC 49540",
+                        "tax_id": 1423814
+                    }
+                ],
+                "id": "Lactobacillus vaginalis DSM 5837 ATCC 49540"
+            }
+        },
+        {
+            "id": "Lactobacillus iners LEAF 2053A b",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Lactobacillus",
+                    "Lactobacillus iners",
+                    "Lactobacillus iners LEAF 2053A-b"
+                ],
+                "tax_id": 879301,
+                "title": "Lactobacillus iners LEAF 2053A-b",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lactobacillus",
+                        "tax_id": 1578
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lactobacillus iners",
+                        "tax_id": 147802
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus iners LEAF 2053A-b",
+                        "tax_id": 879301
+                    }
+                ],
+                "id": "Lactobacillus iners LEAF 2053A b"
+            }
+        },
+        {
+            "id": "Lactobacillus coleohominis 101 4 CHN",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Lactobacillaceae",
+                    "Limosilactobacillus",
+                    "Limosilactobacillus coleohominis",
+                    "Lactobacillus coleohominis 101-4-CHN"
+                ],
+                "tax_id": 575594,
+                "title": "Lactobacillus coleohominis 101-4-CHN",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lactobacillaceae",
+                        "tax_id": 33958
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Limosilactobacillus",
+                        "tax_id": 2742598
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Limosilactobacillus coleohominis",
+                        "tax_id": 181675
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lactobacillus coleohominis 101-4-CHN",
+                        "tax_id": 575594
+                    }
+                ],
+                "id": "Lactobacillus coleohominis 101 4 CHN"
+            }
+        },
+        {
+            "id": "Streptococcus sp HMSC077F03 GCA 001812375.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Streptococcaceae",
+                    "Streptococcus",
+                    "Streptococcus_u_s",
+                    "Streptococcus sp. HMSC077F03"
+                ],
+                "tax_id": 1739357,
+                "title": "Streptococcus sp. HMSC077F03",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Streptococcaceae",
+                        "tax_id": 1300
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Streptococcus",
+                        "tax_id": 1301
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Streptococcus_u_s",
+                        "tax_id": 1301
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Streptococcus sp. HMSC077F03",
+                        "tax_id": 1739357
+                    }
+                ],
+                "id": "Streptococcus sp HMSC077F03 GCA 001812375.1",
+                "assembly": "GCA_001812375.1"
+            }
+        },
+        {
+            "id": "Streptococcus 2988 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Streptococcaceae",
+                    "Streptococcus",
+                    "Streptococcus_u_s",
+                    "Streptococcus_u_t"
+                ],
+                "tax_id": 1301,
+                "title": "Streptococcus",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Streptococcaceae",
+                        "tax_id": 1300
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Streptococcus",
+                        "tax_id": 1301
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Streptococcus_u_s",
+                        "tax_id": 1301
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Streptococcus_u_t",
+                        "tax_id": 1301
+                    }
+                ],
+                "id": "Streptococcus 2988 Branch"
+            }
+        },
+        {
+            "id": "Streptococcus mitis strain SK271",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Bacilli",
+                    "Lactobacillales",
+                    "Streptococcaceae",
+                    "Streptococcus",
+                    "Streptococcus mitis",
+                    "Streptococcus mitis"
+                ],
+                "tax_id": 28037,
+                "title": "Streptococcus mitis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacilli",
+                        "tax_id": 91061
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Lactobacillales",
+                        "tax_id": 186826
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Streptococcaceae",
+                        "tax_id": 1300
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Streptococcus",
+                        "tax_id": 1301
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Streptococcus mitis",
+                        "tax_id": 28037
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Streptococcus mitis",
+                        "tax_id": 28037
+                    }
+                ],
+                "id": "Streptococcus mitis strain SK271"
+            }
+        },
+        {
+            "id": "Herbaspirillum huttiense subsp putei IAM 15032",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Burkholderiales",
+                    "Oxalobacteraceae",
+                    "Herbaspirillum",
+                    "Herbaspirillum huttiense",
+                    "Herbaspirillum huttiense subsp. putei IAM 15032"
+                ],
+                "tax_id": 1235558,
+                "title": "Herbaspirillum huttiense subsp. putei IAM 15032",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Burkholderiales",
+                        "tax_id": 80840
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Oxalobacteraceae",
+                        "tax_id": 75682
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Herbaspirillum",
+                        "tax_id": 963
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Herbaspirillum huttiense",
+                        "tax_id": 863372
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Herbaspirillum huttiense subsp. putei IAM 15032",
+                        "tax_id": 1235558
+                    }
+                ],
+                "id": "Herbaspirillum huttiense subsp putei IAM 15032"
+            }
+        },
+        {
+            "id": "Herbaspirillum sp XFZ15 10 5 GCA 003634405.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Burkholderiales",
+                    "Oxalobacteraceae",
+                    "Herbaspirillum",
+                    "Herbaspirillum_u_s",
+                    "Herbaspirillum sp. XFZ15 10_5"
+                ],
+                "tax_id": 2183918,
+                "title": "Herbaspirillum sp. XFZ15 10_5",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Burkholderiales",
+                        "tax_id": 80840
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Oxalobacteraceae",
+                        "tax_id": 75682
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Herbaspirillum",
+                        "tax_id": 963
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Herbaspirillum_u_s",
+                        "tax_id": 963
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Herbaspirillum sp. XFZ15 10_5",
+                        "tax_id": 2183918
+                    }
+                ],
+                "id": "Herbaspirillum sp XFZ15 10 5 GCA 003634405.1",
+                "assembly": "GCA_003634405.1"
+            }
+        },
+        {
+            "id": "Herbaspirillum 25680 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Burkholderiales",
+                    "Oxalobacteraceae",
+                    "Herbaspirillum",
+                    "Herbaspirillum_u_s",
+                    "Herbaspirillum_u_t"
+                ],
+                "tax_id": 963,
+                "title": "Herbaspirillum",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Burkholderiales",
+                        "tax_id": 80840
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Oxalobacteraceae",
+                        "tax_id": 75682
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Herbaspirillum",
+                        "tax_id": 963
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Herbaspirillum_u_s",
+                        "tax_id": 963
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Herbaspirillum_u_t",
+                        "tax_id": 963
+                    }
+                ],
+                "id": "Herbaspirillum 25680 Branch"
+            }
+        },
+        {
+            "id": "Achromobacter xylosoxidans X02736",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Burkholderiales",
+                    "Alcaligenaceae",
+                    "Achromobacter",
+                    "Achromobacter xylosoxidans",
+                    "Achromobacter xylosoxidans X02736"
+                ],
+                "tax_id": 1350469,
+                "title": "Achromobacter xylosoxidans X02736",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Burkholderiales",
+                        "tax_id": 80840
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Alcaligenaceae",
+                        "tax_id": 506
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Achromobacter",
+                        "tax_id": 222
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Achromobacter xylosoxidans",
+                        "tax_id": 85698
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Achromobacter xylosoxidans X02736",
+                        "tax_id": 1350469
+                    }
+                ],
+                "id": "Achromobacter xylosoxidans X02736"
+            }
+        },
+        {
+            "id": "Achromobacter sp RW408 GCA 003184165.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Burkholderiales",
+                    "Alcaligenaceae",
+                    "Achromobacter",
+                    "Achromobacter_u_s",
+                    "Achromobacter sp. RW408"
+                ],
+                "tax_id": 2202897,
+                "title": "Achromobacter sp. RW408",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Burkholderiales",
+                        "tax_id": 80840
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Alcaligenaceae",
+                        "tax_id": 506
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Achromobacter",
+                        "tax_id": 222
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Achromobacter_u_s",
+                        "tax_id": 222
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Achromobacter sp. RW408",
+                        "tax_id": 2202897
+                    }
+                ],
+                "id": "Achromobacter sp RW408 GCA 003184165.1",
+                "assembly": "GCA_003184165.1"
+            }
+        },
+        {
+            "id": "Lautropia mirabilis ATCC 51599",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Burkholderiales",
+                    "Burkholderiaceae",
+                    "Lautropia",
+                    "Lautropia mirabilis",
+                    "Lautropia mirabilis ATCC 51599"
+                ],
+                "tax_id": 887898,
+                "title": "Lautropia mirabilis ATCC 51599",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Burkholderiales",
+                        "tax_id": 80840
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Burkholderiaceae",
+                        "tax_id": 119060
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lautropia",
+                        "tax_id": 47670
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lautropia mirabilis",
+                        "tax_id": 47671
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Lautropia mirabilis ATCC 51599",
+                        "tax_id": 887898
+                    }
+                ],
+                "id": "Lautropia mirabilis ATCC 51599"
+            }
+        },
+        {
+            "id": "Pseudomonas fluorescens PA4C2",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Pseudomonadales",
+                    "Pseudomonadaceae",
+                    "Pseudomonas",
+                    "Pseudomonas lactis",
+                    "Pseudomonas lactis"
+                ],
+                "tax_id": 1615674,
+                "title": "Pseudomonas lactis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Pseudomonadales",
+                        "tax_id": 72274
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Pseudomonadaceae",
+                        "tax_id": 135621
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Pseudomonas",
+                        "tax_id": 286
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Pseudomonas lactis",
+                        "tax_id": 1615674
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Pseudomonas lactis",
+                        "tax_id": 1615674
+                    }
+                ],
+                "id": "Pseudomonas fluorescens PA4C2"
+            }
+        },
+        {
+            "id": "Pseudomonas fluorescens strain AU14440",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Pseudomonadales",
+                    "Pseudomonadaceae",
+                    "Pseudomonas",
+                    "Pseudomonas fluorescens",
+                    "Pseudomonas fluorescens"
+                ],
+                "tax_id": 294,
+                "title": "Pseudomonas fluorescens",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Pseudomonadales",
+                        "tax_id": 72274
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Pseudomonadaceae",
+                        "tax_id": 135621
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Pseudomonas",
+                        "tax_id": 286
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Pseudomonas fluorescens",
+                        "tax_id": 294
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Pseudomonas fluorescens",
+                        "tax_id": 294
+                    }
+                ],
+                "id": "Pseudomonas fluorescens strain AU14440"
+            }
+        },
+        {
+            "id": "Pseudomonas libanensis DMSP 1 GCA 003952245.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Pseudomonadales",
+                    "Pseudomonadaceae",
+                    "Pseudomonas",
+                    "Pseudomonas libanensis",
+                    "Pseudomonas libanensis"
+                ],
+                "tax_id": 75588,
+                "title": "Pseudomonas libanensis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Pseudomonadales",
+                        "tax_id": 72274
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Pseudomonadaceae",
+                        "tax_id": 135621
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Pseudomonas",
+                        "tax_id": 286
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Pseudomonas libanensis",
+                        "tax_id": 75588
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Pseudomonas libanensis",
+                        "tax_id": 75588
+                    }
+                ],
+                "id": "Pseudomonas libanensis DMSP 1 GCA 003952245.1",
+                "assembly": "GCA_003952245.1"
+            }
+        },
+        {
+            "id": "Pseudomonas sp Eur1 9 41",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Pseudomonadales",
+                    "Pseudomonadaceae",
+                    "Pseudomonas",
+                    "Pseudomonas_u_s",
+                    "Pseudomonas sp. Eur1 9.41"
+                ],
+                "tax_id": 378534,
+                "title": "Pseudomonas sp. Eur1 9.41",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Pseudomonadales",
+                        "tax_id": 72274
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Pseudomonadaceae",
+                        "tax_id": 135621
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Pseudomonas",
+                        "tax_id": 286
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Pseudomonas_u_s",
+                        "tax_id": 286
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Pseudomonas sp. Eur1 9.41",
+                        "tax_id": 378534
+                    }
+                ],
+                "id": "Pseudomonas sp Eur1 9 41"
+            }
+        },
+        {
+            "id": "Haemophilus sp HMSC61B11 GCA 001838615.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Pasteurellales",
+                    "Pasteurellaceae",
+                    "Haemophilus",
+                    "Haemophilus_u_s",
+                    "Haemophilus sp. HMSC61B11"
+                ],
+                "tax_id": 1608882,
+                "title": "Haemophilus sp. HMSC61B11",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Pasteurellales",
+                        "tax_id": 135625
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Pasteurellaceae",
+                        "tax_id": 712
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Haemophilus",
+                        "tax_id": 724
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Haemophilus_u_s",
+                        "tax_id": 724
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Haemophilus sp. HMSC61B11",
+                        "tax_id": 1608882
+                    }
+                ],
+                "id": "Haemophilus sp HMSC61B11 GCA 001838615.1",
+                "assembly": "GCA_001838615.1"
+            }
+        },
+        {
+            "id": "Haemophilus parainfluenzae ATCC 33392",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Pasteurellales",
+                    "Pasteurellaceae",
+                    "Haemophilus",
+                    "Haemophilus parainfluenzae",
+                    "Haemophilus parainfluenzae ATCC 33392"
+                ],
+                "tax_id": 888828,
+                "title": "Haemophilus parainfluenzae ATCC 33392",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Pasteurellales",
+                        "tax_id": 135625
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Pasteurellaceae",
+                        "tax_id": 712
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Haemophilus",
+                        "tax_id": 724
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Haemophilus parainfluenzae",
+                        "tax_id": 729
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Haemophilus parainfluenzae ATCC 33392",
+                        "tax_id": 888828
+                    }
+                ],
+                "id": "Haemophilus parainfluenzae ATCC 33392"
+            }
+        },
+        {
+            "id": "Kingella oralis ATCC 51147",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Betaproteobacteria",
+                    "Neisseriales",
+                    "Neisseriaceae",
+                    "Kingella",
+                    "Kingella oralis",
+                    "Kingella oralis ATCC 51147"
+                ],
+                "tax_id": 629741,
+                "title": "Kingella oralis ATCC 51147",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Betaproteobacteria",
+                        "tax_id": 28216
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Neisseriales",
+                        "tax_id": 206351
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Neisseriaceae",
+                        "tax_id": 481
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Kingella",
+                        "tax_id": 32257
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Kingella oralis",
+                        "tax_id": 505
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Kingella oralis ATCC 51147",
+                        "tax_id": 629741
+                    }
+                ],
+                "id": "Kingella oralis ATCC 51147"
+            }
+        },
+        {
+            "id": "Sphingobium sp IP1 GCA 002708645.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Alphaproteobacteria",
+                    "Sphingomonadales",
+                    "Sphingomonadaceae",
+                    "Sphingobium",
+                    "Sphingobium_u_s",
+                    "Sphingobium sp. IP1"
+                ],
+                "tax_id": 2021637,
+                "title": "Sphingobium sp. IP1",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Alphaproteobacteria",
+                        "tax_id": 28211
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Sphingomonadales",
+                        "tax_id": 204457
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Sphingomonadaceae",
+                        "tax_id": 41297
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Sphingobium",
+                        "tax_id": 165695
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Sphingobium_u_s",
+                        "tax_id": 165695
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Sphingobium sp. IP1",
+                        "tax_id": 2021637
+                    }
+                ],
+                "id": "Sphingobium sp IP1 GCA 002708645.1",
+                "assembly": "GCA_002708645.1"
+            }
+        },
+        {
+            "id": "Sphingobium yanoikuyae XLDN2 5",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Alphaproteobacteria",
+                    "Sphingomonadales",
+                    "Sphingomonadaceae",
+                    "Sphingobium",
+                    "Sphingobium yanoikuyae",
+                    "Sphingobium yanoikuyae XLDN2-5"
+                ],
+                "tax_id": 1074493,
+                "title": "Sphingobium yanoikuyae XLDN2-5",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Alphaproteobacteria",
+                        "tax_id": 28211
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Sphingomonadales",
+                        "tax_id": 204457
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Sphingomonadaceae",
+                        "tax_id": 41297
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Sphingobium",
+                        "tax_id": 165695
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Sphingobium yanoikuyae",
+                        "tax_id": 13690
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Sphingobium yanoikuyae XLDN2-5",
+                        "tax_id": 1074493
+                    }
+                ],
+                "id": "Sphingobium yanoikuyae XLDN2 5"
+            }
+        },
+        {
+            "id": "Sphingomonas sp S NIHPt3 0716 GCA 003950715.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Alphaproteobacteria",
+                    "Sphingomonadales",
+                    "Sphingomonadaceae",
+                    "Sphingomonas",
+                    "Sphingomonas_u_s",
+                    "Sphingomonas sp. S-NIH.Pt3_0716"
+                ],
+                "tax_id": 1920124,
+                "title": "Sphingomonas sp. S-NIH.Pt3_0716",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Alphaproteobacteria",
+                        "tax_id": 28211
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Sphingomonadales",
+                        "tax_id": 204457
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Sphingomonadaceae",
+                        "tax_id": 41297
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Sphingomonas",
+                        "tax_id": 13687
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Sphingomonas_u_s",
+                        "tax_id": 13687
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Sphingomonas sp. S-NIH.Pt3_0716",
+                        "tax_id": 1920124
+                    }
+                ],
+                "id": "Sphingomonas sp S NIHPt3 0716 GCA 003950715.1",
+                "assembly": "GCA_003950715.1"
+            }
+        },
+        {
+            "id": "Rothia sp HMSC069C01 GCA 001814655.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Micrococcales",
+                    "Micrococcaceae",
+                    "Rothia",
+                    "Rothia_u_s",
+                    "Rothia sp. HMSC069C01"
+                ],
+                "tax_id": 1739485,
+                "title": "Rothia sp. HMSC069C01",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Micrococcales",
+                        "tax_id": 85006
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Micrococcaceae",
+                        "tax_id": 1268
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Rothia",
+                        "tax_id": 32207
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Rothia_u_s",
+                        "tax_id": 32207
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Rothia sp. HMSC069C01",
+                        "tax_id": 1739485
+                    }
+                ],
+                "id": "Rothia sp HMSC069C01 GCA 001814655.1",
+                "assembly": "GCA_001814655.1"
+            }
+        },
+        {
+            "id": "Rothia dentocariosa M567",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Micrococcales",
+                    "Micrococcaceae",
+                    "Rothia",
+                    "Rothia dentocariosa",
+                    "Rothia dentocariosa M567"
+                ],
+                "tax_id": 563032,
+                "title": "Rothia dentocariosa M567",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Micrococcales",
+                        "tax_id": 85006
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Micrococcaceae",
+                        "tax_id": 1268
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Rothia",
+                        "tax_id": 32207
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Rothia dentocariosa",
+                        "tax_id": 2047
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Rothia dentocariosa M567",
+                        "tax_id": 563032
+                    }
+                ],
+                "id": "Rothia dentocariosa M567"
+            }
+        },
+        {
+            "id": "Rothia dentocariosa strain C 20583 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Micrococcales",
+                    "Micrococcaceae",
+                    "Rothia",
+                    "Rothia aeria",
+                    "Rothia aeria"
+                ],
+                "tax_id": 172042,
+                "title": "Rothia aeria",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Micrococcales",
+                        "tax_id": 85006
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Micrococcaceae",
+                        "tax_id": 1268
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Rothia",
+                        "tax_id": 32207
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Rothia aeria",
+                        "tax_id": 172042
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Rothia aeria",
+                        "tax_id": 172042
+                    }
+                ],
+                "id": "Rothia dentocariosa strain C 20583 Branch"
+            }
+        },
+        {
+            "id": "Corynebacterium matruchotii ATCC 19837 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Corynebacteriales",
+                    "Corynebacteriaceae",
+                    "Corynebacterium",
+                    "Corynebacterium matruchotii",
+                    "Corynebacterium matruchotii"
+                ],
+                "tax_id": 43768,
+                "title": "Corynebacterium matruchotii",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Corynebacteriales",
+                        "tax_id": 85007
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Corynebacteriaceae",
+                        "tax_id": 1653
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Corynebacterium",
+                        "tax_id": 1716
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Corynebacterium matruchotii",
+                        "tax_id": 43768
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Corynebacterium matruchotii",
+                        "tax_id": 43768
+                    }
+                ],
+                "id": "Corynebacterium matruchotii ATCC 19837 Branch"
+            }
+        },
+        {
+            "id": "Lawsonella clevelandensis X1698 GCA 001281505.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Corynebacteriales",
+                    "Lawsonellaceae",
+                    "Lawsonella",
+                    "Lawsonella clevelandensis",
+                    "Lawsonella clevelandensis"
+                ],
+                "tax_id": 1528099,
+                "title": "Lawsonella clevelandensis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Corynebacteriales",
+                        "tax_id": 85007
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lawsonellaceae",
+                        "tax_id": 2805586
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Lawsonella",
+                        "tax_id": 1847725
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Lawsonella clevelandensis",
+                        "tax_id": 1528099
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Lawsonella clevelandensis",
+                        "tax_id": 1528099
+                    }
+                ],
+                "id": "Lawsonella clevelandensis X1698 GCA 001281505.1",
+                "assembly": "GCA_001281505.1"
+            }
+        },
+        {
+            "id": "Corynebacterium durum F0235",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Corynebacteriales",
+                    "Corynebacteriaceae",
+                    "Corynebacterium",
+                    "Corynebacterium durum",
+                    "Corynebacterium durum F0235"
+                ],
+                "tax_id": 1035195,
+                "title": "Corynebacterium durum F0235",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Corynebacteriales",
+                        "tax_id": 85007
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Corynebacteriaceae",
+                        "tax_id": 1653
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Corynebacterium",
+                        "tax_id": 1716
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Corynebacterium durum",
+                        "tax_id": 61592
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Corynebacterium durum F0235",
+                        "tax_id": 1035195
+                    }
+                ],
+                "id": "Corynebacterium durum F0235"
+            }
+        },
+        {
+            "id": "Actinomyces sp oral taxon 171 str F0337",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Actinomycetales",
+                    "Actinomycetaceae",
+                    "Actinomyces",
+                    "Actinomyces_u_s",
+                    "Actinomyces sp. oral taxon 171 str. F0337"
+                ],
+                "tax_id": 706439,
+                "title": "Actinomyces sp. oral taxon 171 str. F0337",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Actinomycetales",
+                        "tax_id": 2037
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Actinomycetaceae",
+                        "tax_id": 2049
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Actinomyces",
+                        "tax_id": 1654
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Actinomyces_u_s",
+                        "tax_id": 1654
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Actinomyces sp. oral taxon 171 str. F0337",
+                        "tax_id": 706439
+                    }
+                ],
+                "id": "Actinomyces sp oral taxon 171 str F0337"
+            }
+        },
+        {
+            "id": "Propionibacterium humerusii 20948 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Actinobacteria",
+                    "Actinomycetia",
+                    "Propionibacteriales",
+                    "Propionibacteriaceae",
+                    "Propionibacteriaceae_u_g",
+                    "Propionibacteriaceae_u_s",
+                    "Propionibacteriaceae_u_t"
+                ],
+                "tax_id": 31957,
+                "title": "Propionibacteriaceae",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Actinobacteria",
+                        "tax_id": 201174
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Actinomycetia",
+                        "tax_id": 1760
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Propionibacteriales",
+                        "tax_id": 85009
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Propionibacteriaceae",
+                        "tax_id": 31957
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Propionibacteriaceae_u_g",
+                        "tax_id": 31957
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Propionibacteriaceae_u_s",
+                        "tax_id": 31957
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Propionibacteriaceae_u_t",
+                        "tax_id": 31957
+                    }
+                ],
+                "id": "Propionibacterium humerusii 20948 Branch"
+            }
+        },
+        {
+            "id": "Enterobacter 36577 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Proteobacteria",
+                    "Gammaproteobacteria",
+                    "Enterobacterales",
+                    "Enterobacteriaceae",
+                    "Enterobacter",
+                    "Enterobacter cloacae complex",
+                    "Enterobacter cloacae complex_u_t"
+                ],
+                "tax_id": 354276,
+                "title": "Enterobacter cloacae complex",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Proteobacteria",
+                        "tax_id": 1224
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Gammaproteobacteria",
+                        "tax_id": 1236
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Enterobacterales",
+                        "tax_id": 91347
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Enterobacteriaceae",
+                        "tax_id": 543
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Enterobacter",
+                        "tax_id": 547
+                    },
+                    {
+                        "rank": "species group",
+                        "name": "Enterobacter cloacae complex",
+                        "tax_id": 354276
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Enterobacter cloacae complex_u_t",
+                        "tax_id": 354276
+                    }
+                ],
+                "id": "Enterobacter 36577 Branch"
+            }
+        },
+        {
+            "id": "Anaerococcus senegalensis JC48",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Tissierellia",
+                    "Tissierellales",
+                    "Peptoniphilaceae",
+                    "Anaerococcus",
+                    "Anaerococcus senegalensis",
+                    "Anaerococcus senegalensis JC48"
+                ],
+                "tax_id": 1033733,
+                "title": "Anaerococcus senegalensis JC48",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Tissierellia",
+                        "tax_id": 1737404
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Tissierellales",
+                        "tax_id": 1737405
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Peptoniphilaceae",
+                        "tax_id": 1570339
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Anaerococcus",
+                        "tax_id": 165779
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Anaerococcus senegalensis",
+                        "tax_id": 1288120
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Anaerococcus senegalensis JC48",
+                        "tax_id": 1033733
+                    }
+                ],
+                "id": "Anaerococcus senegalensis JC48"
+            }
+        },
+        {
+            "id": "Anaerococcus octavius UMB0119 GCA 002847745.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Tissierellia",
+                    "Tissierellales",
+                    "Peptoniphilaceae",
+                    "Anaerococcus",
+                    "Anaerococcus octavius",
+                    "Anaerococcus octavius"
+                ],
+                "tax_id": 54007,
+                "title": "Anaerococcus octavius",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Tissierellia",
+                        "tax_id": 1737404
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Tissierellales",
+                        "tax_id": 1737405
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Peptoniphilaceae",
+                        "tax_id": 1570339
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Anaerococcus",
+                        "tax_id": 165779
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Anaerococcus octavius",
+                        "tax_id": 54007
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Anaerococcus octavius",
+                        "tax_id": 54007
+                    }
+                ],
+                "id": "Anaerococcus octavius UMB0119 GCA 002847745.1",
+                "assembly": "GCA_002847745.1"
+            }
+        },
+        {
+            "id": "Finegoldia magna ATCC 53516",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Tissierellia",
+                    "Tissierellales",
+                    "Peptoniphilaceae",
+                    "Finegoldia",
+                    "Finegoldia magna",
+                    "Finegoldia magna ATCC 53516"
+                ],
+                "tax_id": 525282,
+                "title": "Finegoldia magna ATCC 53516",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Tissierellia",
+                        "tax_id": 1737404
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Tissierellales",
+                        "tax_id": 1737405
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Peptoniphilaceae",
+                        "tax_id": 1570339
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Finegoldia",
+                        "tax_id": 150022
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Finegoldia magna",
+                        "tax_id": 1260
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Finegoldia magna ATCC 53516",
+                        "tax_id": 525282
+                    }
+                ],
+                "id": "Finegoldia magna ATCC 53516"
+            }
+        },
+        {
+            "id": "Finegoldia sp BIOML A1 GCA 009678325.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Tissierellia",
+                    "Tissierellales",
+                    "Peptoniphilaceae",
+                    "Finegoldia",
+                    "Finegoldia_u_s",
+                    "Finegoldia sp. BIOML-A1"
+                ],
+                "tax_id": 2584649,
+                "title": "Finegoldia sp. BIOML-A1",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Tissierellia",
+                        "tax_id": 1737404
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Tissierellales",
+                        "tax_id": 1737405
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Peptoniphilaceae",
+                        "tax_id": 1570339
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Finegoldia",
+                        "tax_id": 150022
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Finegoldia_u_s",
+                        "tax_id": 150022
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Finegoldia sp. BIOML-A1",
+                        "tax_id": 2584649
+                    }
+                ],
+                "id": "Finegoldia sp BIOML A1 GCA 009678325.1",
+                "assembly": "GCA_009678325.1"
+            }
+        },
+        {
+            "id": "Peptoniphilus sp HMSC075B08 GCA 001815405.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Tissierellia",
+                    "Tissierellales",
+                    "Peptoniphilaceae",
+                    "Peptoniphilus",
+                    "Peptoniphilus_u_s",
+                    "Peptoniphilus sp. HMSC075B08"
+                ],
+                "tax_id": 1739525,
+                "title": "Peptoniphilus sp. HMSC075B08",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Tissierellia",
+                        "tax_id": 1737404
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Tissierellales",
+                        "tax_id": 1737405
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Peptoniphilaceae",
+                        "tax_id": 1570339
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Peptoniphilus",
+                        "tax_id": 162289
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Peptoniphilus_u_s",
+                        "tax_id": 162289
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Peptoniphilus sp. HMSC075B08",
+                        "tax_id": 1739525
+                    }
+                ],
+                "id": "Peptoniphilus sp HMSC075B08 GCA 001815405.1",
+                "assembly": "GCA_001815405.1"
+            }
+        },
+        {
+            "id": "Roseburia inulinivorans DSM 16841",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Clostridia",
+                    "Clostridiales",
+                    "Lachnospiraceae",
+                    "Roseburia",
+                    "Roseburia inulinivorans",
+                    "Roseburia inulinivorans DSM 16841"
+                ],
+                "tax_id": 622312,
+                "title": "Roseburia inulinivorans DSM 16841",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Clostridia",
+                        "tax_id": 186801
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Clostridiales",
+                        "tax_id": 186802
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lachnospiraceae",
+                        "tax_id": 186803
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Roseburia",
+                        "tax_id": 841
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Roseburia inulinivorans",
+                        "tax_id": 360807
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Roseburia inulinivorans DSM 16841",
+                        "tax_id": 622312
+                    }
+                ],
+                "id": "Roseburia inulinivorans DSM 16841"
+            }
+        },
+        {
+            "id": "Ruminococcus sp AF19 15 GCA 003461215.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Clostridia",
+                    "Clostridiales",
+                    "Ruminococcaceae",
+                    "Ruminococcus",
+                    "Ruminococcus_u_s",
+                    "Ruminococcus sp. AF19-15"
+                ],
+                "tax_id": 2293157,
+                "title": "Ruminococcus sp. AF19-15",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Clostridia",
+                        "tax_id": 186801
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Clostridiales",
+                        "tax_id": 186802
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Ruminococcaceae",
+                        "tax_id": 541000
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Ruminococcus",
+                        "tax_id": 1263
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Ruminococcus_u_s",
+                        "tax_id": 1263
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Ruminococcus sp. AF19-15",
+                        "tax_id": 2293157
+                    }
+                ],
+                "id": "Ruminococcus sp AF19 15 GCA 003461215.1",
+                "assembly": "GCA_003461215.1"
+            }
+        },
+        {
+            "id": "Eubacterium ventriosum ATCC 27560",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Clostridia",
+                    "Clostridiales",
+                    "Eubacteriaceae",
+                    "Eubacterium",
+                    "Eubacterium ventriosum",
+                    "Eubacterium ventriosum ATCC 27560"
+                ],
+                "tax_id": 411463,
+                "title": "Eubacterium ventriosum ATCC 27560",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Clostridia",
+                        "tax_id": 186801
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Clostridiales",
+                        "tax_id": 186802
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Eubacteriaceae",
+                        "tax_id": 186806
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Eubacterium",
+                        "tax_id": 1730
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Eubacterium ventriosum",
+                        "tax_id": 39496
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Eubacterium ventriosum ATCC 27560",
+                        "tax_id": 411463
+                    }
+                ],
+                "id": "Eubacterium ventriosum ATCC 27560"
+            }
+        },
+        {
+            "id": "Dialister micraerophilus DSM 19965",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Negativicutes",
+                    "Veillonellales",
+                    "Veillonellaceae",
+                    "Dialister",
+                    "Dialister micraerophilus",
+                    "Dialister micraerophilus DSM 19965"
+                ],
+                "tax_id": 888062,
+                "title": "Dialister micraerophilus DSM 19965",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Negativicutes",
+                        "tax_id": 909932
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Veillonellales",
+                        "tax_id": 1843489
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Veillonellaceae",
+                        "tax_id": 31977
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Dialister",
+                        "tax_id": 39948
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Dialister micraerophilus",
+                        "tax_id": 309120
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Dialister micraerophilus DSM 19965",
+                        "tax_id": 888062
+                    }
+                ],
+                "id": "Dialister micraerophilus DSM 19965"
+            }
+        },
+        {
+            "id": "Veillonella 14239 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Negativicutes",
+                    "Veillonellales",
+                    "Veillonellaceae",
+                    "Veillonella",
+                    "Veillonella_u_s",
+                    "Veillonella_u_t"
+                ],
+                "tax_id": 29465,
+                "title": "Veillonella",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Negativicutes",
+                        "tax_id": 909932
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Veillonellales",
+                        "tax_id": 1843489
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Veillonellaceae",
+                        "tax_id": 31977
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Veillonella",
+                        "tax_id": 29465
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Veillonella_u_s",
+                        "tax_id": 29465
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Veillonella_u_t",
+                        "tax_id": 29465
+                    }
+                ],
+                "id": "Veillonella 14239 Branch"
+            }
+        },
+        {
+            "id": "Veillonella parvula HSIVP1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Negativicutes",
+                    "Veillonellales",
+                    "Veillonellaceae",
+                    "Veillonella",
+                    "Veillonella parvula",
+                    "Veillonella parvula HSIVP1"
+                ],
+                "tax_id": 1316254,
+                "title": "Veillonella parvula HSIVP1",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Negativicutes",
+                        "tax_id": 909932
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Veillonellales",
+                        "tax_id": 1843489
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Veillonellaceae",
+                        "tax_id": 31977
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Veillonella",
+                        "tax_id": 29465
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Veillonella parvula",
+                        "tax_id": 29466
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Veillonella parvula HSIVP1",
+                        "tax_id": 1316254
+                    }
+                ],
+                "id": "Veillonella parvula HSIVP1"
+            }
+        },
+        {
+            "id": "Roseburia sp AF15 21 GCA 003479505.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Firmicutes",
+                    "Clostridia",
+                    "Clostridiales",
+                    "Lachnospiraceae",
+                    "Roseburia",
+                    "Roseburia_u_s",
+                    "Roseburia sp. AF15-21"
+                ],
+                "tax_id": 2293128,
+                "title": "Roseburia sp. AF15-21",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Firmicutes",
+                        "tax_id": 1239
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Clostridia",
+                        "tax_id": 186801
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Clostridiales",
+                        "tax_id": 186802
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Lachnospiraceae",
+                        "tax_id": 186803
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Roseburia",
+                        "tax_id": 841
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Roseburia_u_s",
+                        "tax_id": 841
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Roseburia sp. AF15-21",
+                        "tax_id": 2293128
+                    }
+                ],
+                "id": "Roseburia sp AF15 21 GCA 003479505.1",
+                "assembly": "GCA_003479505.1"
+            }
+        },
+        {
+            "id": "Bacteroides coprocola DSM 17136",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidales_u_f",
+                    "Phocaeicola",
+                    "Phocaeicola coprocola",
+                    "Bacteroides coprocola DSM 17136"
+                ],
+                "tax_id": 470145,
+                "title": "Bacteroides coprocola DSM 17136",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidales_u_f",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Phocaeicola",
+                        "tax_id": 909656
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Phocaeicola coprocola",
+                        "tax_id": 310298
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Bacteroides coprocola DSM 17136",
+                        "tax_id": 470145
+                    }
+                ],
+                "id": "Bacteroides coprocola DSM 17136"
+            }
+        },
+        {
+            "id": "Bacteroides vulgatus str 3775 S 1080 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidales_u_f",
+                    "Phocaeicola",
+                    "Phocaeicola vulgatus",
+                    "Phocaeicola vulgatus"
+                ],
+                "tax_id": 821,
+                "title": "Phocaeicola vulgatus",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidales_u_f",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Phocaeicola",
+                        "tax_id": 909656
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Phocaeicola vulgatus",
+                        "tax_id": 821
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Phocaeicola vulgatus",
+                        "tax_id": 821
+                    }
+                ],
+                "id": "Bacteroides vulgatus str 3775 S 1080 Branch"
+            }
+        },
+        {
+            "id": "Bacteroides sp 1084 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidaceae",
+                    "Bacteroides",
+                    "Bacteroides_u_s",
+                    "Bacteroides_u_t"
+                ],
+                "tax_id": 2646097,
+                "title": "unclassified Bacteroides",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidaceae",
+                        "tax_id": 815
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Bacteroides",
+                        "tax_id": 816
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Bacteroides_u_s",
+                        "tax_id": 816
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Bacteroides_u_t",
+                        "tax_id": 816
+                    }
+                ],
+                "id": "Bacteroides sp 1084 Branch"
+            }
+        },
+        {
+            "id": "Bacteroides dorei isolate HS1 L 1 B 010",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidales_u_f",
+                    "Phocaeicola",
+                    "Phocaeicola dorei",
+                    "Phocaeicola dorei"
+                ],
+                "tax_id": 357276,
+                "title": "Phocaeicola dorei",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidales_u_f",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Phocaeicola",
+                        "tax_id": 909656
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Phocaeicola dorei",
+                        "tax_id": 357276
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Phocaeicola dorei",
+                        "tax_id": 357276
+                    }
+                ],
+                "id": "Bacteroides dorei isolate HS1 L 1 B 010"
+            }
+        },
+        {
+            "id": "Parabacteroides sp 1117 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Tannerellaceae",
+                    "Parabacteroides",
+                    "Parabacteroides_u_s",
+                    "Parabacteroides_u_t"
+                ],
+                "tax_id": 2649774,
+                "title": "unclassified Parabacteroides",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Tannerellaceae",
+                        "tax_id": 2005525
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Parabacteroides",
+                        "tax_id": 375288
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Parabacteroides_u_s",
+                        "tax_id": 375288
+                    },
+                    {
+                        "rank": "strains",
+                        "name": "Parabacteroides_u_t",
+                        "tax_id": 375288
+                    }
+                ],
+                "id": "Parabacteroides sp 1117 Branch"
+            }
+        },
+        {
+            "id": "Parabacteroides sp D13",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Tannerellaceae",
+                    "Parabacteroides",
+                    "Parabacteroides_u_s",
+                    "Parabacteroides sp. D13"
+                ],
+                "tax_id": 563193,
+                "title": "Parabacteroides sp. D13",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Tannerellaceae",
+                        "tax_id": 2005525
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Parabacteroides",
+                        "tax_id": 375288
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Parabacteroides_u_s",
+                        "tax_id": 375288
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Parabacteroides sp. D13",
+                        "tax_id": 563193
+                    }
+                ],
+                "id": "Parabacteroides sp D13"
+            }
+        },
+        {
+            "id": "Parabacteroides distasonis str 3999B TB 1112 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Tannerellaceae",
+                    "Parabacteroides",
+                    "Parabacteroides distasonis",
+                    "Parabacteroides distasonis"
+                ],
+                "tax_id": 823,
+                "title": "Parabacteroides distasonis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Tannerellaceae",
+                        "tax_id": 2005525
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Parabacteroides",
+                        "tax_id": 375288
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Parabacteroides distasonis",
+                        "tax_id": 823
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Parabacteroides distasonis",
+                        "tax_id": 823
+                    }
+                ],
+                "id": "Parabacteroides distasonis str 3999B TB 1112 Branch"
+            }
+        },
+        {
+            "id": "Bacteroides sp AF35 22 GCA 003603935.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidaceae",
+                    "Bacteroides",
+                    "Bacteroides_u_s",
+                    "Bacteroides sp. AF35-22"
+                ],
+                "tax_id": 2292932,
+                "title": "Bacteroides sp. AF35-22",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidaceae",
+                        "tax_id": 815
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Bacteroides",
+                        "tax_id": 816
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Bacteroides_u_s",
+                        "tax_id": 816
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Bacteroides sp. AF35-22",
+                        "tax_id": 2292932
+                    }
+                ],
+                "id": "Bacteroides sp AF35 22 GCA 003603935.1",
+                "assembly": "GCA_003603935.1"
+            }
+        },
+        {
+            "id": "Bacteroides uniformis str 3978 T3 i 828 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidaceae",
+                    "Bacteroides",
+                    "Bacteroides uniformis",
+                    "Bacteroides uniformis"
+                ],
+                "tax_id": 820,
+                "title": "Bacteroides uniformis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidaceae",
+                        "tax_id": 815
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Bacteroides",
+                        "tax_id": 816
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Bacteroides uniformis",
+                        "tax_id": 820
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Bacteroides uniformis",
+                        "tax_id": 820
+                    }
+                ],
+                "id": "Bacteroides uniformis str 3978 T3 i 828 Branch"
+            }
+        },
+        {
+            "id": "Bacteroides stercoris CC31F",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidaceae",
+                    "Bacteroides",
+                    "Bacteroides stercoris",
+                    "Bacteroides stercoris CC31F"
+                ],
+                "tax_id": 1073351,
+                "title": "Bacteroides stercoris CC31F",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidaceae",
+                        "tax_id": 815
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Bacteroides",
+                        "tax_id": 816
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Bacteroides stercoris",
+                        "tax_id": 46506
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Bacteroides stercoris CC31F",
+                        "tax_id": 1073351
+                    }
+                ],
+                "id": "Bacteroides stercoris CC31F"
+            }
+        },
+        {
+            "id": "Barnesiella intestinihominis YIT 11860",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Barnesiellaceae",
+                    "Barnesiella",
+                    "Barnesiella intestinihominis",
+                    "Barnesiella intestinihominis YIT 11860"
+                ],
+                "tax_id": 742726,
+                "title": "Barnesiella intestinihominis YIT 11860",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Barnesiellaceae",
+                        "tax_id": 2005519
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Barnesiella",
+                        "tax_id": 397864
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Barnesiella intestinihominis",
+                        "tax_id": 487174
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Barnesiella intestinihominis YIT 11860",
+                        "tax_id": 742726
+                    }
+                ],
+                "id": "Barnesiella intestinihominis YIT 11860"
+            }
+        },
+        {
+            "id": "Prevotella rara 109 GCA 001275135.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Prevotellaceae",
+                    "Prevotella",
+                    "Prevotella rara",
+                    "Prevotella rara"
+                ],
+                "tax_id": 1676614,
+                "title": "Prevotella rara",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Prevotellaceae",
+                        "tax_id": 171552
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Prevotella",
+                        "tax_id": 838
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Prevotella rara",
+                        "tax_id": 1676614
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Prevotella rara",
+                        "tax_id": 1676614
+                    }
+                ],
+                "id": "Prevotella rara 109 GCA 001275135.1",
+                "assembly": "GCA_001275135.1"
+            }
+        },
+        {
+            "id": "Prevotella marseillensis Marseille P8229 GCA 900625065.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Prevotellaceae",
+                    "Prevotella",
+                    "Prevotella marseillensis",
+                    "Prevotella marseillensis"
+                ],
+                "tax_id": 2479840,
+                "title": "Prevotella marseillensis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Prevotellaceae",
+                        "tax_id": 171552
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Prevotella",
+                        "tax_id": 838
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Prevotella marseillensis",
+                        "tax_id": 2479840
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Prevotella marseillensis",
+                        "tax_id": 2479840
+                    }
+                ],
+                "id": "Prevotella marseillensis Marseille P8229 GCA 900625065.1",
+                "assembly": "GCA_900625065.1"
+            }
+        },
+        {
+            "id": "Parabacteroides merdae 1349 Branch",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Tannerellaceae",
+                    "Parabacteroides",
+                    "Parabacteroides merdae",
+                    "Parabacteroides merdae"
+                ],
+                "tax_id": 46503,
+                "title": "Parabacteroides merdae",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Tannerellaceae",
+                        "tax_id": 2005525
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Parabacteroides",
+                        "tax_id": 375288
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Parabacteroides merdae",
+                        "tax_id": 46503
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Parabacteroides merdae",
+                        "tax_id": 46503
+                    }
+                ],
+                "id": "Parabacteroides merdae 1349 Branch"
+            }
+        },
+        {
+            "id": "Alistipes sp 6CPBBH3 GCA 006542745.1",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Rikenellaceae",
+                    "Alistipes",
+                    "Alistipes communis",
+                    "Alistipes communis"
+                ],
+                "tax_id": 2585118,
+                "title": "Alistipes communis",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Rikenellaceae",
+                        "tax_id": 171550
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Alistipes",
+                        "tax_id": 239759
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Alistipes communis",
+                        "tax_id": 2585118
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Alistipes communis",
+                        "tax_id": 2585118
+                    }
+                ],
+                "id": "Alistipes sp 6CPBBH3 GCA 006542745.1",
+                "assembly": "GCA_006542745.1"
+            }
+        },
+        {
+            "id": "Alistipes putredinis DSM 17216",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Rikenellaceae",
+                    "Alistipes",
+                    "Alistipes putredinis",
+                    "Alistipes putredinis DSM 17216"
+                ],
+                "tax_id": 445970,
+                "title": "Alistipes putredinis DSM 17216",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Rikenellaceae",
+                        "tax_id": 171550
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Alistipes",
+                        "tax_id": 239759
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Alistipes putredinis",
+                        "tax_id": 28117
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Alistipes putredinis DSM 17216",
+                        "tax_id": 445970
+                    }
+                ],
+                "id": "Alistipes putredinis DSM 17216"
+            }
+        },
+        {
+            "id": "Bacteroides plebeius DSM 17135",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Bacteroidales_u_f",
+                    "Phocaeicola",
+                    "Phocaeicola plebeius",
+                    "Bacteroides plebeius DSM 17135"
+                ],
+                "tax_id": 484018,
+                "title": "Bacteroides plebeius DSM 17135",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Bacteroidales_u_f",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Phocaeicola",
+                        "tax_id": 909656
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Phocaeicola plebeius",
+                        "tax_id": 310297
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Bacteroides plebeius DSM 17135",
+                        "tax_id": 484018
+                    }
+                ],
+                "id": "Bacteroides plebeius DSM 17135"
+            }
+        },
+        {
+            "id": "Prevotella disiens JCM 6334 ATCC 29426",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Prevotellaceae",
+                    "Prevotella",
+                    "Prevotella disiens",
+                    "Prevotella disiens JCM 6334 = ATCC 29426"
+                ],
+                "tax_id": 1235811,
+                "title": "Prevotella disiens JCM 6334 = ATCC 29426",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Prevotellaceae",
+                        "tax_id": 171552
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Prevotella",
+                        "tax_id": 838
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Prevotella disiens",
+                        "tax_id": 28130
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Prevotella disiens JCM 6334 = ATCC 29426",
+                        "tax_id": 1235811
+                    }
+                ],
+                "id": "Prevotella disiens JCM 6334 ATCC 29426"
+            }
+        },
+        {
+            "id": "Odoribacter splanchnicus DSM 20712",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Bacteroidia",
+                    "Bacteroidales",
+                    "Odoribacteraceae",
+                    "Odoribacter",
+                    "Odoribacter splanchnicus",
+                    "Odoribacter splanchnicus DSM 20712"
+                ],
+                "tax_id": 709991,
+                "title": "Odoribacter splanchnicus DSM 20712",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Bacteroidia",
+                        "tax_id": 200643
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Bacteroidales",
+                        "tax_id": 171549
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Odoribacteraceae",
+                        "tax_id": 1853231
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Odoribacter",
+                        "tax_id": 283168
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Odoribacter splanchnicus",
+                        "tax_id": 28118
+                    },
+                    {
+                        "rank": "no rank",
+                        "name": "Odoribacter splanchnicus DSM 20712",
+                        "tax_id": 709991
+                    }
+                ],
+                "id": "Odoribacter splanchnicus DSM 20712"
+            }
+        },
+        {
+            "id": "Capnocytophaga sputigena ATCC 33612",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Flavobacteriia",
+                    "Flavobacteriales",
+                    "Flavobacteriaceae",
+                    "Capnocytophaga",
+                    "Capnocytophaga sputigena",
+                    "Capnocytophaga sputigena ATCC 33612"
+                ],
+                "tax_id": 553177,
+                "title": "Capnocytophaga sputigena ATCC 33612",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Flavobacteriia",
+                        "tax_id": 117743
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Flavobacteriales",
+                        "tax_id": 200644
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Flavobacteriaceae",
+                        "tax_id": 49546
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Capnocytophaga",
+                        "tax_id": 1016
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Capnocytophaga sputigena",
+                        "tax_id": 1019
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Capnocytophaga sputigena ATCC 33612",
+                        "tax_id": 553177
+                    }
+                ],
+                "id": "Capnocytophaga sputigena ATCC 33612"
+            }
+        },
+        {
+            "id": "Capnocytophaga gingivalis ATCC 33624",
+            "metadata": {
+                "taxonomy": [
+                    "Bacteria",
+                    "Bacteroidetes",
+                    "Flavobacteriia",
+                    "Flavobacteriales",
+                    "Flavobacteriaceae",
+                    "Capnocytophaga",
+                    "Capnocytophaga gingivalis",
+                    "Capnocytophaga gingivalis ATCC 33624"
+                ],
+                "tax_id": 553178,
+                "title": "Capnocytophaga gingivalis ATCC 33624",
+                "lineage": [
+                    {
+                        "rank": "superkingdom",
+                        "name": "Bacteria",
+                        "tax_id": 2
+                    },
+                    {
+                        "rank": "phylum",
+                        "name": "Bacteroidetes",
+                        "tax_id": 976
+                    },
+                    {
+                        "rank": "class",
+                        "name": "Flavobacteriia",
+                        "tax_id": 117743
+                    },
+                    {
+                        "rank": "order",
+                        "name": "Flavobacteriales",
+                        "tax_id": 200644
+                    },
+                    {
+                        "rank": "family",
+                        "name": "Flavobacteriaceae",
+                        "tax_id": 49546
+                    },
+                    {
+                        "rank": "genus",
+                        "name": "Capnocytophaga",
+                        "tax_id": 1016
+                    },
+                    {
+                        "rank": "species",
+                        "name": "Capnocytophaga gingivalis",
+                        "tax_id": 1017
+                    },
+                    {
+                        "rank": "strain",
+                        "name": "Capnocytophaga gingivalis ATCC 33624",
+                        "tax_id": 553178
+                    }
+                ],
+                "id": "Capnocytophaga gingivalis ATCC 33624"
+            }
+        }
+    ],
+    "columns": [
+        {
+            "id": "relative_abundance",
+            "metadata": null
+        },
+        {
+            "id": "abundance_score",
+            "metadata": null
+        },
+        {
+            "id": "hit_frequency",
+            "metadata": null
+        }
+    ],
+    "metadata": {
+        "analysis_id": "12345-1234-1237777888",
+        "name": "Quasar analysis",
+        "database": "bacteria",
+        "created": "2021-04-15T09:40:39.804181",
+        "database_feature": "organisms",
+        "biom_version": 3,
+        "filterset_name": "total",
+        "filterset_id": "total"
+    }
+}
