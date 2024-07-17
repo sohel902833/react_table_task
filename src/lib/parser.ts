@@ -6,57 +6,7 @@ export const fetchBiomData = async (): Promise<IBiomJson> => {
     return data;
 };
 
-export const parserVersionOne = (biomData: IBiomJson) => {
-    type ColumnKeys =
-        | "relative_abundance"
-        | "abundance_score"
-        | "hit_frequency";
-    type ColumnNameWithIndex = {
-        relative_abundance?: number;
-        abundance_score?: number;
-        hit_frequency?: number;
-        // [key: ColumnKeys]: number;
-    };
-    const { relative_abundance, abundance_score, hit_frequency } =
-        biomData.columns.reduce<ColumnNameWithIndex>((acc, current, index) => {
-            acc[current.id as ColumnKeys] = index;
-            return acc;
-        }, {});
-
-    const data = biomData.rows.map((row, index) => {
-        const lineageLevel = 7;
-        const name = row.metadata.lineage[lineageLevel].name;
-        const taxId = row.metadata.lineage[lineageLevel].tax_id;
-
-        const startIndex = index * 3;
-        const endIndex = startIndex + 3;
-        const slicedArr = biomData.data.slice(startIndex, endIndex);
-
-        const abouncedData = slicedArr.reduce<{ [key: string]: number }>(
-            (accm, currentItem) => {
-                if (currentItem[1] === relative_abundance) {
-                    accm["relative_abundance"] = currentItem?.[2];
-                } else if (currentItem[1] === abundance_score) {
-                    accm["abundance_score"] = currentItem?.[2];
-                } else if (currentItem[1] === hit_frequency) {
-                    accm["hit_frequency"] = currentItem?.[2];
-                }
-                return accm;
-            },
-            {}
-        );
-
-        return {
-            key: index,
-            name,
-            taxId,
-            abouncedData,
-        };
-    });
-    return data;
-};
-
-export const parserVersionTwo = (biomData: IBiomJson): IFormattedBiomData[] => {
+export const parseData = (biomData: IBiomJson): IFormattedBiomData[] => {
     type IParsedData = {
         [key: string]: {
             //row key

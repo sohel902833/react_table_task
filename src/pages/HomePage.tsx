@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchBiomData, parserVersionTwo } from "../lib/parser";
+import { fetchBiomData, parseData } from "../lib/parser";
 import { IFormattedBiomData } from "../lib/types";
 import BiomTable from "./components/Table";
 
@@ -8,7 +8,7 @@ const HomePage = () => {
     useEffect(() => {
         const fetchData = async () => {
             const data = await fetchBiomData();
-            const parsedData = parserVersionTwo(data);
+            const parsedData = parseData(data);
             setData(parsedData);
         };
         fetchData();
