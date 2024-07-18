@@ -6,7 +6,74 @@ export const fetchBiomData = async (): Promise<IBiomJson> => {
     return data;
 };
 
-export const parseData = (biomData: IBiomJson): IFormattedBiomData[] => {
+export function* parseBiomDataInChunks(
+    biomData: IBiomJson,
+    valuePerChunk: number,
+    processor: (biomData: IBiomJson, rowStart?: number) => IFormattedBiomData[]
+) {
+    const chunkSize = valuePerChunk;
+    let chunkStart = 0;
+    while (chunkStart < biomData.rows.length) {
+        const end = chunkStart + chunkSize;
+        const chunk = biomData.rows.slice(chunkStart, end);
+        const newData: IBiomJson = {
+            ...biomData,
+            rows: chunk,
+        };
+        const data = processor(newData, chunkStart);
+        yield data;
+        chunkStart += chunkSize;
+    }
+}
+
+//if data formate is in sorted order based on the row then this parser will work slightly much faster
+export const parserVersionOne = (
+    biomData: IBiomJson,
+    rowStart?: number
+): IFormattedBiomData[] => {
+    type IValueFormate = {
+        [key: string]: string;
+    };
+    const valueFormate = biomData.columns.reduce<IValueFormate>(
+        (accm, current, index) => {
+            accm[index] = current.id;
+            return accm;
+        },
+        {}
+    );
+    const dataLength = biomData.shape[1];
+    const data: IFormattedBiomData[] = biomData.rows.map((row, index) => {
+        const lineageLevel = 7;
+        const name = row.metadata.lineage[lineageLevel].name;
+        const taxId = row.metadata.lineage[lineageLevel].tax_id;
+        let startIndex = index * dataLength;
+        if (rowStart) {
+            startIndex = (rowStart + index) * dataLength;
+        }
+        const endIndex = startIndex + dataLength;
+        type FormattedValue = {
+            [key: string]: number;
+        };
+        const formattedValue: FormattedValue = {};
+        for (let i = startIndex; i < endIndex; i++) {
+            const rowData = biomData.data[i];
+            formattedValue[valueFormate[rowData[1]]] = rowData[2];
+        }
+
+        return {
+            key: row.id,
+            name,
+            taxId,
+            value: formattedValue,
+        };
+    });
+    return data;
+};
+
+export const parserVersionTwo = (
+    biomData: IBiomJson,
+    rowStart?: number
+): IFormattedBiomData[] => {
     type IParsedData = {
         [key: string]: {
             //row key
@@ -52,7 +119,12 @@ export const parseData = (biomData: IBiomJson): IFormattedBiomData[] => {
         const name = row.metadata.lineage[lineageLevel].name;
         const taxId = row.metadata.lineage[lineageLevel].tax_id;
 
-        const rowValues = mappedDataViaKeyValue[index];
+        let mappedIndex = index;
+
+        if (rowStart) {
+            mappedIndex = rowStart + index;
+        }
+        const rowValues = mappedDataViaKeyValue[mappedIndex];
         type FormattedValue = {
             [key: string]: number;
         };
@@ -61,7 +133,7 @@ export const parseData = (biomData: IBiomJson): IFormattedBiomData[] => {
             formattedValue[valueFormate[key].key] = rowValues[key];
         });
         return {
-            key: index,
+            key: row.id,
             name,
             taxId,
             value: formattedValue,

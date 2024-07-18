@@ -70,7 +70,7 @@ interface FormattedValue {
 }
 
 export interface IFormattedBiomData {
-    key: number;
+    key: number | string;
     name: string;
     taxId: number;
     value: FormattedValue;

@@ -13,11 +13,19 @@ import PaginationController from "../../components/common/PaginationController";
 
 interface Props {
     data: IFormattedBiomData[];
+    nextGenerator: () => void;
+    totalData: number;
 }
-const PER_PAGE = 6;
-const BiomTable: React.FC<Props> = ({ data }) => {
+export const PER_PAGE = 6;
+const BiomTable: React.FC<Props> = ({ data, nextGenerator, totalData }) => {
     const { handleNext, handlePrev, currentPage, totalPage } =
-        usePaginationInfo(data.length, PER_PAGE);
+        usePaginationInfo(totalData, PER_PAGE);
+
+    const nextPageHandler = () => {
+        nextGenerator();
+        handleNext();
+    };
+
     return (
         <>
             <Table>
@@ -71,7 +79,7 @@ const BiomTable: React.FC<Props> = ({ data }) => {
             <div className="flex items-center justify-end mt-4 mr-4">
                 <PaginationController
                     prev={handlePrev}
-                    next={handleNext}
+                    next={nextPageHandler}
                     currentPage={currentPage}
                     totalPage={totalPage}
                 />
